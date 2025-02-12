@@ -1,22 +1,23 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Labs = () => {
-  return (
-    <div>
-      <h1>Haoteng Yang</h1>
-      <h2>Lab Exercises</h2>
-      <ul>
-        <li><Link to="/Labs/Lab1">Lab 1</Link></li>
-        <li><Link to="/Labs/Lab2">Lab 2</Link></li>
-      </ul>
-      <h2>Other Links</h2>
-      <ul>
-        <li><Link to="/Kambaz">Kambaz Application</Link></li>
-        <li><a href="https://github.com/haotengyang/kambaz-react-web-app" target="_blank">GitHub Repository</a></li>
-      </ul>
-    </div>
-  );
+    return (
+        <div style={{ padding: '20px' }}>
+            <h1>Labs Table of Contents</h1>
+            <ul style={{ listStyle: 'none', padding: 0 }}>
+                <li style={{ margin: '10px 0' }}>
+                    <Link to="/labs/lab1">Lab 1</Link>
+                </li>
+                <li style={{ margin: '10px 0' }}>
+                    <Link to="/labs/lab2">Lab 2</Link>
+                </li>
+                <li style={{ margin: '10px 0' }}>
+                    <Link to="/kambaz">Kambaz Application</Link>
+                </li>
+            </ul>
+        </div>
+    );
 };
 
 export default Labs;

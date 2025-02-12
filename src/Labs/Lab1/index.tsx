@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
 const Lab1 = () => {
-  return (
-    <div>
-      <h2>Lab 1</h2>
-      <p>This is Lab 1 page.</p>
-    </div>
-  );
+    return (
+        <div>
+            <h1>Lab 1</h1>
+            <p>Welcome to Lab 1.</p>
+        </div>
+    );
 };
 
 export default Lab1;
