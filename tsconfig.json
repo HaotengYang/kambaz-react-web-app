@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    /* 指定 TypeScript 输出的 JavaScript 版本 */
+    "target": "ESNext",
+
+    /* 指定模块系统，ESNext 适用于现代 ES 模块 */
+    "module": "ESNext",
+
+    /* 设置 JSX 支持，使用 `react-jsx` 以支持 React 17+ */
+    "jsx": "react-jsx",
+
+    /* 允许 ES 模块默认导入 CommonJS 模块 */
+    "esModuleInterop": true,
+
+    /* 强制文件名一致的大小写，避免在不同系统上因大小写导致的问题 */
+    "forceConsistentCasingInFileNames": true,
+
+    /* 启用严格模式，提高代码的健壮性 */
+    "strict": true,
+
+    /* 跳过所有 `.d.ts` 类型文件的检查，提高编译速度 */
+    "skipLibCheck": true,
+
+    /* 允许引入 JSON 文件 */
+    "resolveJsonModule": true,
+
+    /* 允许导入 .ts/.tsx 结尾的文件，不需要手动写文件扩展名 */
+    "allowImportingTsExtensions": true,
+
+    /* 允许从 `node_modules` 解析模块 */
+    "moduleResolution": "node",
+
+    /* 指定根目录，TypeScript 会在这个目录下查找文件 */
+    "rootDir": "src",
+
+    /* 指定输出目录，TypeScript 编译后的 `.js` 文件会放在 `dist` 目录 */
+    "outDir": "dist",
+
+    /* 启用增量编译，提高构建速度 */
+    "incremental": true
+  },
+
+  "include": ["src"],
+
+  "exclude": ["node_modules", "dist", "build"]
+}
