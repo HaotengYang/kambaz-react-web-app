@@ -3,6 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Labs from './Labs'; // 引用 Labs 页面
 import Lab1 from './Labs/Lab1'; // 引用 Lab1 页面
 import Kambaz from './Kambaz'; // 引用 Kambaz 页面
+import Labs from "./Labs/index";
+import Lab1 from "./Labs/Lab1";
+import Kambaz from "./Kambaz/index";
+
 
 function App() {
   return (
